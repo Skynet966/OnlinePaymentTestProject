@@ -2,7 +2,6 @@
 This is the online payment gateway test app project use to mimics online payment gateway.
 
 We can use test demo data to proceed fake online payment.
-
 Direct API Testing card data:
 Card Number : 4242 4242 4242 4242
 Expiry Month : 01
