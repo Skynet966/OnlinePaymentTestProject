@@ -74,7 +74,7 @@ if (isset($_POST["submitPayment"])) {
                 .'</div>';
         }elseif($_SESSION["status"]=="fail"){
                 echo 
-                '<div class="alert alert-success" role="alert">
+                '<div class="alert alert-danger" role="alert">
                     <strong>'.$_SESSION["status"].'!&nbsp;</strong>'.$_SESSION["message"]
                 .'</div>';
         } ?>
