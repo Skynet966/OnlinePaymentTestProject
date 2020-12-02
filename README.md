@@ -1,6 +1,8 @@
 # OnlinePaymentTestProject
 This is the online payment gateway test app project use to mimics online payment gateway.
 
+Test Link: https://ipaymentgateway.000webhostapp.com
+
 We can use test demo data to proceed fake online payment.
 Direct API Testing card data:
 Card Number : 4242 4242 4242 4242
