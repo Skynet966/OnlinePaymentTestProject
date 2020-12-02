@@ -1,0 +1,111 @@
+body {
+	margin: 0;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 0.875rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #001737;
+	text-align: left;
+	background-color: #fff;
+}
+
+.partner__images__container {
+	letter-spacing: 0.3px;
+	padding: 15px 25px;
+	background: #2935410f;
+	border-top: 1px solid rgba(72, 94, 144, 0.16);
+}
+
+button[type='submit'] {
+	background: #2e5b00;
+	border-color: #2e5b00;
+}
+button[type='reset'] {
+	color: #012e5b;
+	background: #e5d335;
+	border-color: #e5d335;
+}
+button[type='submit']:hover {
+	background: #2e5b00;
+	border-color: #2e5b00;
+}
+button[type='reset']:hover {
+	color: #012e5b;
+	background: #e5d335;
+	border-color: #e5d335;
+}
+
+.form__container {
+	font-size: 0.875rem;
+	letter-spacing: normal;
+	padding: 10px;
+	background-color: #fff;
+	border: 1px solid rgba(72, 94, 144, 0.16);
+	position: relative;
+}
+.form__container::before {
+	content: attr(data-label);
+	display: block;
+	position: absolute;
+	top: -6px;
+	left: 5px;
+	font-size: 8px;
+	font-weight: 600;
+	font-family: -apple-system, BlinkMacSystemFont, 'Inter UI', Roboto, sans-serif;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	background-color: inherit;
+	color: #8392a5;
+	padding: 0 5px;
+}
+
+.info-msg {
+	width: 100%;
+	margin-top: 0.25rem;
+	font-size: 80%;
+	color: #dc3545;
+}
+
+@media (max-width: 991px) {
+	footer {
+		display: none;
+	}
+}
+.card {
+	color: white;
+	border-radius: 5px;
+}
+.card__header {
+	background: #e5d335;
+}
+.card__body {
+	background: #002e5b;
+}
+.card__footer {
+	background: #e5d335;
+}
+
+.price__container {
+	background: #002e5b;
+	border-radius: 5px;
+}
+.btn-blue {
+	color: white !important;
+	background: #002e5b !important;
+	border-color: #002e5b !important;
+}
+.btn-blue:hover {
+	color: white !important;
+	background: #002e5b !important;
+	border-color: #002e5b !important;
+}
+
+.payment__box {
+	width: fit-content;
+}
+
+.fly__footer {
+	position: absolute;
+	width: -webkit-fill-available;
+	bottom: 0;
+}
